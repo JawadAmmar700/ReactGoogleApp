@@ -1,0 +1,101 @@
+.Nav{
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+}
+img{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+}
+.upper{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.Input_page{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 3px  grey;
+    margin-left: 40px;
+
+}
+.Input_page form{
+    flex: .7;
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.input_page{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    
+
+}
+.clear_icon{
+flex: .1;
+color: blue;
+border-right: 1px solid grey;
+cursor: pointer;
+
+}
+.mic-icon{
+    flex: .1;
+    color: blue;
+    cursor: pointer;
+
+}
+.search_icon{
+    flex: .1;
+    color: blue;
+    cursor: pointer;
+
+}
+.upper_right{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    
+}
+.App_icon{
+    margin-right:20px;
+    cursor: pointer;
+
+}
+.lower{
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-bottom: 10px;
+
+}
+.sub{ 
+    width: auto;
+    height: 20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.sub p{
+    position: relative;
+    right: 7px;
+    top: -2px;
+}
